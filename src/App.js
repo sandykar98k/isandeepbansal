@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import Intro from './components/Intro';
+import Layout from './components/Layout';
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Intro />
+        <Layout />
       </React.Fragment>
     );
   }
