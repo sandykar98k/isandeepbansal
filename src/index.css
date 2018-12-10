@@ -6,7 +6,6 @@ body {
 /* HEADER */
 .nav-brnd {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 .nav-brnd-logo {
@@ -28,4 +27,25 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 0 20px;
+}
+/* INTRO */
+.intro-jumbotron {
+  /* background-image: linear-gradient(129deg, #392dd1 0%, #a91b78 100%); */
+  background-image: linear-gradient(129deg, #d1292f 0%, #60006d 100%);
+  color: #ffffff;
+}
+.intro-section {
+  display: flex;
+  align-items: center;
+}
+.intro-heading {
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 50px;
+}
+.intro-img {
+  display: block;
+  width: 350px;
+  margin: auto;
 }

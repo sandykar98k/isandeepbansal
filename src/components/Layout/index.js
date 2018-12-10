@@ -7,7 +7,7 @@ const Layout = () => {
   return (
     <React.Fragment>
       <Header />
-      <div className="container-fluid">
+      <div className="container-fluid p-0">
         <Intro />
       </div>
     </React.Fragment>

@@ -6,7 +6,7 @@ const Header = () => {
     <nav className="navbar navbar-light shadow-sm">
       <div className="container">
         <div className="nav-brnd">
-          <div className="nav-brnd-logo">
+          <div className="nav-brnd-logo d-none-sm">
             <img src={devIcon} alt="dev" />
           </div>
           <div className="nav-brnd-title">
@@ -15,7 +15,7 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="right-nav">
+        <div className="right-nav d-none d-lg-block">
           <div className="mr-auto">
             <span>Projects</span>
             <span>Services</span>
