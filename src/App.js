@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
+import Intro from './components/Intro';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1>App.js</h1>
-      </div>
+      <React.Fragment>
+        <Intro />
+      </React.Fragment>
     );
   }
 }
