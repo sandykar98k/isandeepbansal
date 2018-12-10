@@ -7,7 +7,9 @@ const Layout = () => {
   return (
     <React.Fragment>
       <Header />
-      <Intro />
+      <div className="container-fluid">
+        <Intro />
+      </div>
     </React.Fragment>
   );
 };
