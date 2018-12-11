@@ -3,11 +3,11 @@ import devIcon from '../../assets/devIcon.png';
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-light shadow-sm">
-      <div className="container">
+    <nav className="navbar navbar-light bg-white sticky-top shadow-md">
+      <div className="container-fluid">
         <div className="nav-brnd">
           <div className="nav-brnd-logo d-none-sm">
-            <img src={devIcon} alt="dev" />
+            <img className="img-fluid" src={devIcon} alt="dev" />
           </div>
           <div className="nav-brnd-title">
             Sandeep Bansal

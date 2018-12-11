@@ -11,7 +11,7 @@ class Intro extends Component {
               <h1 class="intro-heading">
                 A freelance front end developer for digital products
               </h1>
-              <p className="lead">
+              <p className="intro-description">
                 I have a diverse set of skills, ranging from, HTML + CSS +
                 JAVASCRIPT + REACT.JS all the way to node js. I can create
                 interactive UIs, using component based architecture which is
