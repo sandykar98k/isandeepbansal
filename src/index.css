@@ -37,6 +37,7 @@ body {
   /* background-image: linear-gradient(129deg, #392dd1 0%, #a91b78 100%); */
   background-image: linear-gradient(129deg, #d1292f 0%, #60006d 100%);
   color: #ffffff;
+  margin: 0;
 }
 .intro-section {
   display: flex;
@@ -59,6 +60,44 @@ body {
   margin: auto;
 }
 
+/* SECTION */
+section {
+  padding: 70px 0;
+}
+/* MY SILLS SECTION */
+.my-skills-sec {
+  /* background-color: rgba(242, 247, 249, 0); */
+  background-color: #f8f8f8;
+}
+.my-skills-title {
+  text-align: center;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  /* color: #ff4530; */
+  color: #392dd1;
+}
+.my-skills-description {
+  font-size: 20px;
+  font-weight: 400;
+  color: #3e3e49;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+.my-skills-body {
+  margin-top: 80px;
+}
+.my-skills-card {
+  border: none;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+}
+.my-skills-card h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 /* ------------------------------------------ */
 /* HEADER SECTION MEDIA QUERIES */
 /* ------------------------------------------ */
