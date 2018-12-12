@@ -67,7 +67,6 @@ section {
 
 /* MY SILLS SECTION */
 .my-skills-sec {
-  /* background-color: rgba(242, 247, 249, 0); */
   background-color: #f8f8f8;
 }
 .my-skills-title {
@@ -95,34 +94,57 @@ section {
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
   cursor: pointer;
 }
-.my-skills-card h4 {
-  font-size: 17px;
-  text-transform: uppercase;
+.my-skills-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.my-skills-card-header img {
+  padding-right: 10px;
+}
+.my-skills-card-header-right h4 {
+  font-size: 16px;
   font-weight: 700;
 }
-.my-skills-card span {
-  display: block;
+.my-skills-card-header-right span {
+  font-size: 14px;
+}
+.my-skills-card-body {
+  padding: 0 10px;
   font-size: 16px;
 }
-
 /* ------------------------------------------ */
 /* MYSKILLS SECTION MEDIA QUERIES */
 /* ------------------------------------------ */
 @media (max-width: 767.98px) {
   .my-skills-title {
-    font-size: 18px;
+    font-size: 19px;
   }
   .my-skills-description {
-    font-size: 16px;
+    font-size: 17px;
   }
   .my-skills-card {
     margin-bottom: 20px;
   }
-  .my-skills-card h4 {
-    font-size: 16px;
+  .my-skills-card-header-right h4 {
+    font-size: 14px;
   }
-  .my-skills-card span {
-    font-size: 15px;
+  .my-skills-card-body {
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .my-skills-title {
+    font-size: 19px;
+  }
+  .my-skills-description {
+    font-size: 17px;
+  }
+  .my-skills-card-header-right h4 {
+    font-size: 14px;
+  }
+  .my-skills-card-body {
+    font-size: 14px;
   }
 }
 
@@ -181,19 +203,7 @@ section {
     margin-bottom: 50px;
   }
 }
-@media (min-width: 768px) and (max-width: 991.98px) {
-  :root {
-    --intro-heading-font: 23px;
-    --intro-img-width: 350px;
-  }
-  .intro-heading {
-    line-height: 40px;
-  }
-  .intro-description {
-    font-size: 16px;
-  }
-}
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 768px) and (max-width: 1199.98px) {
   :root {
     --intro-heading-font: 23px;
     --intro-img-width: 350px;
