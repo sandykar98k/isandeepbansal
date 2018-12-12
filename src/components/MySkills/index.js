@@ -12,25 +12,32 @@ const MySkills = () => {
         <div className="row my-skills-body">
           <div className="col-sm-12 col-md-4 col-lg-4">
             <div className="card card-body my-skills-card">
-              <h4>Html</h4>
-              <span>1 Years, 14 Projects</span>
+              <h4>HTML, CSS</h4>
+              <span>1 Years, 10 Projects</span>
               <br />
               <span>
-                I have done 14 projects ranging from startups to strong
-                companies
+                If i have to rate myslef in HTML, CSS i will rate 9 out of 10
+              </span>
+            </div>
+          </div>
+          <div className="col-sm-12 col-md-4 col-lg-4">
+            <div className="card card-body my-skills-card">
+              <h4>JavaScript</h4>
+              <span>1 Years, 10 Projects</span>
+              <br />
+              <span>
+                If i have to rate myslef in JavaScript i will rate out 8 of 10
               </span>
             </div>
           </div>
           <div className="col-sm-12 col-md-4 col-lg-4">
             <div className="card card-body my-skills-card">
               <h4>ReactJS</h4>
-              <span>1 Years, 5 Projects</span>
-            </div>
-          </div>
-          <div className="col-sm-12 col-md-4 col-lg-4">
-            <div className="card card-body my-skills-card">
-              <h4>JavaScript</h4>
-              <span>1 Years, 19 Projects</span>
+              <span>1 Years, 4 Projects</span>
+              <br />
+              <span>
+                If i have to rate myslef in ReactJS i will rate 8 out of 10
+              </span>
             </div>
           </div>
         </div>

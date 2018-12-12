@@ -64,6 +64,7 @@ body {
 section {
   padding: 70px 0;
 }
+
 /* MY SILLS SECTION */
 .my-skills-sec {
   /* background-color: rgba(242, 247, 249, 0); */
@@ -71,7 +72,7 @@ section {
 }
 .my-skills-title {
   text-align: center;
-  font-size: 26px;
+  font-size: 24px;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
@@ -79,7 +80,7 @@ section {
   color: #392dd1;
 }
 .my-skills-description {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 400;
   color: #3e3e49;
   max-width: 600px;
@@ -92,12 +93,39 @@ section {
 .my-skills-card {
   border: none;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
 }
 .my-skills-card h4 {
-  font-size: 18px;
+  font-size: 17px;
   text-transform: uppercase;
   font-weight: 700;
 }
+.my-skills-card span {
+  display: block;
+  font-size: 16px;
+}
+
+/* ------------------------------------------ */
+/* MYSKILLS SECTION MEDIA QUERIES */
+/* ------------------------------------------ */
+@media (max-width: 767.98px) {
+  .my-skills-title {
+    font-size: 18px;
+  }
+  .my-skills-description {
+    font-size: 16px;
+  }
+  .my-skills-card {
+    margin-bottom: 20px;
+  }
+  .my-skills-card h4 {
+    font-size: 16px;
+  }
+  .my-skills-card span {
+    font-size: 15px;
+  }
+}
+
 /* ------------------------------------------ */
 /* HEADER SECTION MEDIA QUERIES */
 /* ------------------------------------------ */
