@@ -18,7 +18,6 @@ const Header = () => {
         <div className="right-nav d-none d-lg-block">
           <div className="mr-auto">
             <span>Projects</span>
-            <span>Services</span>
             <span>About Me</span>
             <span>Contact Me</span>
           </div>

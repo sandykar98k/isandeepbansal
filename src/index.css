@@ -144,13 +144,55 @@ section {
 
 /* ---------------------------- MY SILLS SECTION ----------------------- */
 .My-Skills-Sec {
-  background-color: #f8f8f8;
+  background-color: #ffffff;
 }
 .My-Skills-Body {
   margin-top: 80px;
 }
 
 /* PROJECT SECTION */
+.Projects-Sec {
+  background-color: #f8f8f8;
+}
+.Projects-Sec-Body {
+  margin-top: 80px;
+}
+.Scrolling-Cards {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin: auto;
+}
+.Scrolling-Cards::-webkit-scrollbar {
+  display: none;
+}
+.Project-Card {
+  display: inline-block;
+  min-width: 300px;
+  border: none;
+  margin: 0 10px 10px 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.Project-Card:hover {
+  background-color: #3e3e49;
+  color: #ffffff;
+  transition: background-color 0.5s ease-in;
+}
+.Project-Card img {
+  margin-bottom: 10px;
+}
+.Project-Card-Name {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1199.98px) {
+  .Project-Card-Name {
+    font-size: 14px;
+  }
+}
 
 /* ------------------------------------------ */
 /* HEADER SECTION MEDIA QUERIES */
