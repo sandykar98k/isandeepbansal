@@ -3,7 +3,7 @@ import devIcon from '../../assets/devIcon.png';
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-light bg-white sticky-top shadow-md">
+    <nav className="navbar navbar-light bg-white shadow-md">
       <div className="container-fluid">
         <div className="nav-brnd">
           <div className="nav-brnd-logo d-none-sm">

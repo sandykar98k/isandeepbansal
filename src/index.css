@@ -32,6 +32,18 @@ body {
   letter-spacing: 1px;
   padding: 0 20px;
 }
+
+/* -------------------------------------------------------------- */
+/* MOBILE HEADER COMPONENT */
+/* -------------------------------------------------------------- */
+.Mob-Header {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #777777;
+}
+
 /* INTRO */
 .intro-jumbotron {
   /* background-image: linear-gradient(129deg, #392dd1 0%, #a91b78 100%); */
