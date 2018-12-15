@@ -2,7 +2,7 @@ import React from 'react';
 
 import Header from '../Header';
 import HomePage from '../Pages/HomePage';
-import MobHeader from '../MobHeader';
+import MobileNav from '../MobileNav';
 
 const Layout = () => {
   return (
@@ -11,7 +11,7 @@ const Layout = () => {
       <div className="container-fluid p-0">
         <HomePage />
       </div>
-      <MobHeader />
+      <MobileNav />
     </React.Fragment>
   );
 };

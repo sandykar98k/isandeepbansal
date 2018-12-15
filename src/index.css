@@ -34,14 +34,35 @@ body {
 }
 
 /* -------------------------------------------------------------- */
-/* MOBILE HEADER COMPONENT */
+/* MOBILE NAV COMPONENT */
 /* -------------------------------------------------------------- */
-.Mob-Header {
+.Mobile-Nav {
   position: fixed;
   bottom: 0;
   width: 100%;
   height: 60px;
-  background-color: #777777;
+  background-color: #ffffff;
+  border-top: 1px solid #e6e6e6;
+}
+.Mobile-Nav-Items {
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Mobile-Nav-Item {
+  text-align: center;
+}
+.Mobile-Nav-Item img {
+  max-height: 19px;
+}
+.Mobile-Nav-Item span {
+  font-size: 13px;
+  display: block;
+}
+.Mobile-Nav-Item-Active {
+  color: #d1292f;
+  font-weight: 700;
 }
 
 /* INTRO */

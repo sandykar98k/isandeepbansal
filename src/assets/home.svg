@@ -1,1 +1,11 @@
-<?xml version="1.0" ?><svg height="19px" version="1.1" viewBox="0 0 20 19" width="20px" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" xmlns:xlink="http://www.w3.org/1999/xlink"><title/><desc/><defs/><g fill="none" fill-rule="evenodd" id="Page-1" stroke="none" stroke-width="1"><g fill="#000000" id="Core" transform="translate(-506.000000, -255.000000)"><g id="home" transform="translate(506.000000, 255.500000)"><path d="M8,17 L8,11 L12,11 L12,17 L17,17 L17,9 L20,9 L10,0 L0,9 L3,9 L3,17 L8,17 Z" id="Shape"/></g></g></g></svg>
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_3" fill="#000000" d="m418.787,472.771l-318.633,0l0,-11.718c0,-23.807 -16.433,-119.542 -27.561,-180.123l-19.961,15.263l-47.318,-56.138l255.087,-201.06l247.109,197.261l-49.849,55.796l-11.628,-9.085c-11.089,60.236 -27.389,154.916 -27.291,178.041l0.045,11.763zm-295.809,-23.435l272.925,0c4.299,-49.547 29.479,-183.483 30.623,-189.684l3.572,-18.955l24.72,19.353l18.676,-20.936l-213.19,-170.2l-221.454,174.554l17.305,20.532l32.507,-24.849l3.479,18.715c1.192,6.249 26.489,141.373 30.837,191.47z"/>
+ </g>
+</svg>
